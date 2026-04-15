@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C++ Tests</title>
+    <link rel="stylesheet" href="../css/test.css">
+</head>
+<body>
+
+<div class="navbar">
+    C++ Subject - Tests
+</div>
+
+<div class="container">
+
+    <h2>Select Test</h2>
+
+    <select id="testSelect" onchange="loadTest()">
+        <option value="">-- Select Test --</option>
+        <option value="1">Test 1</option>
+        <option value="2">Test 2</option>
+        <option value="3">Test 3</option>
+        <option value="4">Test 4</option>
+        <option value="5">Test 5</option>
+        <option value="6">Test 6</option>
+    </select>
+
+    <form id="quizForm"></form>
+
+    <button type="button" onclick="submitTest()">Submit Test</button>
+
+    <div id="result"></div>
+
+    <hr>
+
+    <h3>Overall Progress Report</h3>
+    <div id="progressReport"></div>
+
+</div>
+
+<script src="../javascript/dstest.js"></script>
+
+</body>
+</html>

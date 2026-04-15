@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study Sphere | Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="bg">
+
+    <div class="signup-container">
+
+        <!-- LEFT SIDE TEXT -->
+        <div class="left-text">
+            <h1>Study Sphere</h1>
+            <b><p>Your Smart Study Companion</p></b>
+        </div>
+
+        <!-- RIGHT SIDE FORM -->
+        <div class="form-card">
+            <h2>Create Account</h2>
+
+            <input type="text" id="fullname" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+
+            <select id="semester" required>
+                <option value="">Select Semester</option>
+                <option>Semester 3</option>
+                <option>Semester 4</option>
+            </select>
+
+            <button type="button" id="signupBtn" class="primary-btn" onclick="signup()">Sign Up</button>
+
+            <!-- LOGIN BUTTON -->
+            <a href="login.html" class="login-btn">Already have an account? Login</a>
+
+            <div id="signupMessage" style="color:#c00;margin-top:10px"></div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="javascript/signup.js"></script>
+
+</body>
+</html>

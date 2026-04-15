@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #eef2f7, #e6e6fa);
+}
+
+.navbar {
+    background: #1e3a8a;
+    color: white;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.question {
+    background: #f9f9ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    background: #1e3a8a;
+    color: white;
+    cursor: pointer;
+}
+
+.explanation {
+    display: none;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.correct {
+    background: #d4edda;
+    color: #155724;
+}
+
+.wrong {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#progressReport {
+    margin-top: 15px;
+}
